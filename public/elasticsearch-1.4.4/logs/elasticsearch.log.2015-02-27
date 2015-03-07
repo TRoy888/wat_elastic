@@ -1,0 +1,16 @@
+[2015-02-27 01:23:41,825][INFO ][cluster.service          ] [Captain America] removed {[Node-2][2q2IQGrTRKOBqk3SMgOLpw][TRoy888.local][inet[/192.168.1.108:9301]],}, reason: zen-disco-node_left([Node-2][2q2IQGrTRKOBqk3SMgOLpw][TRoy888.local][inet[/192.168.1.108:9301]])
+[2015-02-27 01:23:43,250][INFO ][node                     ] [Captain America] stopping ...
+[2015-02-27 01:23:43,307][INFO ][node                     ] [Captain America] stopped
+[2015-02-27 01:23:43,307][INFO ][node                     ] [Captain America] closing ...
+[2015-02-27 01:23:43,315][INFO ][node                     ] [Captain America] closed
+[2015-02-27 01:23:47,640][INFO ][node                     ] [Niles Van Roekel] version[1.4.4], pid[6434], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-02-27 01:23:47,640][INFO ][node                     ] [Niles Van Roekel] initializing ...
+[2015-02-27 01:23:47,648][INFO ][plugins                  ] [Niles Van Roekel] loaded [], sites []
+[2015-02-27 01:23:50,468][INFO ][node                     ] [Niles Van Roekel] initialized
+[2015-02-27 01:23:50,468][INFO ][node                     ] [Niles Van Roekel] starting ...
+[2015-02-27 01:23:50,547][INFO ][transport                ] [Niles Van Roekel] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-02-27 01:23:50,565][INFO ][discovery                ] [Niles Van Roekel] elasticsearch/z-_rFo2dTuu847SC6JAoEQ
+[2015-02-27 01:23:54,335][INFO ][cluster.service          ] [Niles Van Roekel] new_master [Niles Van Roekel][z-_rFo2dTuu847SC6JAoEQ][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-27 01:23:54,368][INFO ][http                     ] [Niles Van Roekel] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-02-27 01:23:54,368][INFO ][node                     ] [Niles Van Roekel] started
+[2015-02-27 01:23:54,955][INFO ][gateway                  ] [Niles Van Roekel] recovered [1] indices into cluster_state
