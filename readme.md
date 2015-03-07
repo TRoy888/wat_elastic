@@ -1,3 +1,8 @@
+## wat_elastic
+
+wat_elastic is a prototype project to determine whether Elastic search can be used with the We Are Trojans (WAT) project or not.
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
