@@ -1,0 +1,122 @@
+GET _search
+{
+  "query": {
+    "index": {
+      "": ["my_index"],
+      "query": {
+        "query_string": {
+          "query": "ab"
+        }
+      }
+    }
+  }
+}
+
+
+GET _search
+{
+  "query": {
+      "filtered": {
+        "query": {
+          "query_string": {
+            "query": "ab"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+GET _search
+{
+  "query": {
+      "filtered": {
+        "query": {
+          "query_string": {
+            "query": "my"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+GET _search
+{
+  "query": {
+    "filtered": {
+      "filter": {
+        "type": {
+          "value": "thread"
+        }
+      },
+      "query": {
+        "query_string": {
+          "query": "USB"
+        }
+      }
+    }
+  }
+}
+
+
+GET _search
+{
+  "query": {
+    "fuzzy_like_this": {
+      "fields": ["topic","detail"]
+      , "like_text": "why"
+    }
+  }
+}
+
+
+
+
+GET /wat/threads,posts,users/_search
+{
+  "query": {
+    "multi_match": {
+      "query": "Ameer Sleep",
+      "fields": ["title", "detail", "email", "first_name", "last_name", "degree", "school", "summary_profile", "hobbies", "other", "class"]
+    }
+  },
+  "highlight" : {
+    "fields" : {
+        "topic" : {}
+        , "detail":{}
+        , "first_name": {}
+        , "last_name": {}
+    }
+  }
+}
+
+
+
+
+///Final query 03/18/15
+
+GET /wat/threads,posts,users/_search
+{
+  "query": {
+    "multi_match": {
+      "query": "Ameer Sleeping",
+      "type": "cross_fields",
+      "fields": ["title","title.std", "detail", "detail.std", "email", "email.std", "first_name", "first_name.std", "last_name", "last_name.std", "degree", "degree.std", "school", "school.std", "summary_profile", "summary_profile.std", "hobbies", "hobbies.std", "other", "other.std", "class", "class.std"]
+    }
+  },
+  "highlight" : {
+    "fields" : {
+        "topic" : {}
+        , "detail":{}
+        , "first_name": {}
+        , "last_name": {}
+    }
+  }
+}

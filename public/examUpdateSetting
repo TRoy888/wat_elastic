@@ -1,0 +1,61 @@
+///////////////////////////////////////////////update mapping example
+PUT /wat/_mapping/threads
+{
+  "threads": {
+    "properties": {
+      "topic": {
+        "type":     "string",
+        "analyzer": "english",
+        "fields": {
+          "std":   {
+            "type":     "string",
+            "analyzer": "standard"
+          }
+        }
+      },
+      "detail": {
+        "type":     "string",
+        "analyzer": "english",
+        "fields": {
+          "std":   {
+            "type":     "string",
+            "analyzer": "standard"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+///////////////////////////////////////////////incase there is a conflict in mapping
+PUT /wat/_mapping/threads?ignore_conflicts=true
+{
+  "threads": {
+    "properties": {
+      "topic": {
+        "type":     "string",
+        "analyzer": "brazilian",
+        "fields": {
+          "std":   {
+            "type":     "string",
+            "analyzer": "standard"
+          }
+        }
+      },
+      "detail": {
+        "type":     "string",
+        "analyzer": "english",
+        "fields": {
+          "std":   {
+            "type":     "string",
+            "analyzer": "standard"
+          }
+        }
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////to check mapping
+GET /wat/_mapping/threads

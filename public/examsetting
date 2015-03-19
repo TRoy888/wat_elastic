@@ -1,0 +1,138 @@
+PUT /wat
+{
+    "settings": { "number_of_shards": 1 },
+    "mappings": {
+      "threads": {
+        "properties": {
+          "topic": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "detail": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          }
+        }
+      },
+      "posts": {
+        "properties": {
+          "detail": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          }
+        }
+      },
+      "users": {
+        "properties": {
+          "email": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "first_name": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "last_name": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "degree": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "school": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "summary_profile": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "hobbies": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "other": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          },
+          "class": {
+            "type":     "string",
+            "analyzer": "english",
+            "fields": {
+              "std":   {
+                "type":     "string",
+                "analyzer": "standard"
+              }
+            }
+          }
+        }
+      }
+    }
+}
