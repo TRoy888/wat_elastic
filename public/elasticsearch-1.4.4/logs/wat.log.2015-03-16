@@ -1,0 +1,43 @@
+[2015-03-16 16:57:29,900][INFO ][node                     ] [Battering Ram] version[1.4.4], pid[4036], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-16 16:57:29,902][INFO ][node                     ] [Battering Ram] initializing ...
+[2015-03-16 16:57:29,919][INFO ][plugins                  ] [Battering Ram] loaded [marvel], sites [marvel]
+[2015-03-16 16:57:33,005][INFO ][node                     ] [Battering Ram] initialized
+[2015-03-16 16:57:33,006][INFO ][node                     ] [Battering Ram] starting ...
+[2015-03-16 16:57:33,086][INFO ][transport                ] [Battering Ram] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-03-16 16:57:33,104][INFO ][discovery                ] [Battering Ram] wat/vwjNYXVlSbOMbmEaHz31hw
+[2015-03-16 16:57:36,896][INFO ][cluster.service          ] [Battering Ram] new_master [Battering Ram][vwjNYXVlSbOMbmEaHz31hw][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-16 16:57:36,955][INFO ][http                     ] [Battering Ram] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-03-16 16:57:36,955][INFO ][node                     ] [Battering Ram] started
+[2015-03-16 16:57:38,036][INFO ][gateway                  ] [Battering Ram] recovered [12] indices into cluster_state
+[2015-03-16 16:57:43,336][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-16 16:57:43,596][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [node_stats] (dynamic)
+[2015-03-16 16:57:44,305][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [routing_event] (dynamic)
+[2015-03-16 16:57:44,307][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [node_event] (dynamic)
+[2015-03-16 16:57:44,323][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [shard_event] (dynamic)
+[2015-03-16 16:57:44,326][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [index_event] (dynamic)
+[2015-03-16 16:57:44,340][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [cluster_event] (dynamic)
+[2015-03-16 16:57:44,351][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [cluster_state] (dynamic)
+[2015-03-16 16:57:44,558][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [index_stats] (dynamic)
+[2015-03-16 16:57:44,564][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [indices_stats] (dynamic)
+[2015-03-16 16:57:44,679][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [cluster_stats] (dynamic)
+[2015-03-16 16:57:54,721][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.16] update_mapping [cluster_event] (dynamic)
+[2015-03-16 16:59:46,684][INFO ][cluster.metadata         ] [Battering Ram] [my_index] deleting index
+[2015-03-16 16:59:55,931][INFO ][cluster.metadata         ] [Battering Ram] [my_index] creating index, cause [api], shards [5]/[1], mappings [my_type]
+[2015-03-16 17:00:06,096][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-16 17:00:06,184][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [node_stats] (dynamic)
+[2015-03-16 17:00:06,252][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [cluster_state] (dynamic)
+[2015-03-16 17:00:06,255][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [cluster_event] (dynamic)
+[2015-03-16 17:00:06,258][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [routing_event] (dynamic)
+[2015-03-16 17:00:06,262][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [index_event] (dynamic)
+[2015-03-16 17:00:06,266][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [shard_event] (dynamic)
+[2015-03-16 17:00:06,305][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [indices_stats] (dynamic)
+[2015-03-16 17:00:06,318][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [index_stats] (dynamic)
+[2015-03-16 17:00:06,346][INFO ][cluster.metadata         ] [Battering Ram] [.marvel-2015.03.17] update_mapping [cluster_stats] (dynamic)
+[2015-03-16 18:51:55,525][INFO ][cluster.metadata         ] [Battering Ram] [my_index] deleting index
+[2015-03-16 18:51:59,080][INFO ][cluster.metadata         ] [Battering Ram] [my_index] creating index, cause [api], shards [1]/[1], mappings []
+[2015-03-16 18:52:07,802][INFO ][cluster.metadata         ] [Battering Ram] [my_index] update_mapping [book] (dynamic)
+[2015-03-16 22:45:51,970][INFO ][cluster.metadata         ] [Battering Ram] [my_index] deleting index
+[2015-03-16 22:45:55,086][INFO ][cluster.metadata         ] [Battering Ram] [my_index] creating index, cause [api], shards [1]/[1], mappings []
+[2015-03-16 22:46:00,356][INFO ][cluster.metadata         ] [Battering Ram] [my_index] update_mapping [my_type] (dynamic)
+[2015-03-16 22:59:10,636][INFO ][cluster.metadata         ] [Battering Ram] [my_index] deleting index
+[2015-03-16 23:28:34,693][INFO ][cluster.metadata         ] [Battering Ram] [my_index] creating index, cause [api], shards [1]/[1], mappings [my_type]

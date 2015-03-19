@@ -1,0 +1,43 @@
+[2015-03-07 04:05:58,120][INFO ][node                     ] [Ironclad] version[1.4.4], pid[1325], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-07 04:05:58,121][INFO ][node                     ] [Ironclad] initializing ...
+[2015-03-07 04:05:58,137][INFO ][plugins                  ] [Ironclad] loaded [marvel], sites [marvel]
+[2015-03-07 04:06:00,988][INFO ][node                     ] [Ironclad] initialized
+[2015-03-07 04:06:00,989][INFO ][node                     ] [Ironclad] starting ...
+[2015-03-07 04:06:01,071][INFO ][transport                ] [Ironclad] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-03-07 04:06:01,089][INFO ][discovery                ] [Ironclad] wat/oSbGXOqwSnyEac8HcK6PiA
+[2015-03-07 04:06:04,862][INFO ][cluster.service          ] [Ironclad] new_master [Ironclad][oSbGXOqwSnyEac8HcK6PiA][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-07 04:06:04,945][INFO ][http                     ] [Ironclad] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-03-07 04:06:04,946][INFO ][node                     ] [Ironclad] started
+[2015-03-07 04:06:05,545][INFO ][gateway                  ] [Ironclad] recovered [2] indices into cluster_state
+[2015-03-07 04:06:11,220][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-07 04:06:11,419][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [node_stats] (dynamic)
+[2015-03-07 04:06:11,600][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [index_event] (dynamic)
+[2015-03-07 04:06:11,623][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [cluster_event] (dynamic)
+[2015-03-07 04:06:11,628][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [node_event] (dynamic)
+[2015-03-07 04:06:11,634][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [cluster_state] (dynamic)
+[2015-03-07 04:06:11,646][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [routing_event] (dynamic)
+[2015-03-07 04:06:11,652][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [shard_event] (dynamic)
+[2015-03-07 04:06:11,705][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [indices_stats] (dynamic)
+[2015-03-07 04:06:11,730][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [index_stats] (dynamic)
+[2015-03-07 04:06:11,752][INFO ][cluster.metadata         ] [Ironclad] [.marvel-2015.03.07] update_mapping [cluster_stats] (dynamic)
+[2015-03-07 04:06:38,587][INFO ][cluster.metadata         ] [Ironclad] [wat] creating index, cause [auto(index api)], shards [5]/[1], mappings [thread]
+[2015-03-07 04:06:38,690][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [thread] (dynamic)
+[2015-03-07 04:07:39,229][INFO ][cluster.metadata         ] [Ironclad] [.marvel-kibana] creating index, cause [auto(index api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event, appdata]
+[2015-03-07 04:07:39,340][INFO ][cluster.metadata         ] [Ironclad] [.marvel-kibana] update_mapping [appdata] (dynamic)
+[2015-03-07 04:10:32,880][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [thread] (dynamic)
+[2015-03-07 04:10:32,908][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [post] (dynamic)
+[2015-03-07 04:16:15,927][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [threads] (dynamic)
+[2015-03-07 04:16:15,952][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [posts] (dynamic)
+[2015-03-07 04:16:15,997][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [users] (dynamic)
+[2015-03-07 04:17:41,699][INFO ][cluster.metadata         ] [Ironclad] [wat] deleting index
+[2015-03-07 04:19:03,899][INFO ][cluster.metadata         ] [Ironclad] [wat] creating index, cause [auto(index api)], shards [5]/[1], mappings [threads]
+[2015-03-07 04:19:03,999][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [threads] (dynamic)
+[2015-03-07 04:19:04,026][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [posts] (dynamic)
+[2015-03-07 04:19:04,075][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [users] (dynamic)
+[2015-03-07 04:20:04,323][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [threads] (dynamic)
+[2015-03-07 04:20:04,352][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [posts] (dynamic)
+[2015-03-07 04:20:04,397][INFO ][cluster.metadata         ] [Ironclad] [wat] update_mapping [users] (dynamic)
+[2015-03-07 04:32:36,925][INFO ][node                     ] [Ironclad] stopping ...
+[2015-03-07 04:32:36,965][INFO ][node                     ] [Ironclad] stopped
+[2015-03-07 04:32:36,965][INFO ][node                     ] [Ironclad] closing ...
+[2015-03-07 04:32:36,971][INFO ][node                     ] [Ironclad] closed

@@ -1,0 +1,46 @@
+[2015-02-28 20:46:27,413][INFO ][node                     ] [Destiny] version[1.4.4], pid[44746], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-02-28 20:46:27,414][INFO ][node                     ] [Destiny] initializing ...
+[2015-02-28 20:46:27,433][INFO ][plugins                  ] [Destiny] loaded [marvel], sites [marvel]
+[2015-02-28 20:46:31,100][INFO ][node                     ] [Destiny] initialized
+[2015-02-28 20:46:31,100][INFO ][node                     ] [Destiny] starting ...
+[2015-02-28 20:46:31,205][INFO ][transport                ] [Destiny] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-02-28 20:46:31,224][INFO ][discovery                ] [Destiny] wat/hjExvcopQDC61ySiVWaFkw
+[2015-02-28 20:46:35,000][INFO ][cluster.service          ] [Destiny] new_master [Destiny][hjExvcopQDC61ySiVWaFkw][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-28 20:46:35,057][INFO ][http                     ] [Destiny] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-02-28 20:46:35,057][INFO ][node                     ] [Destiny] started
+[2015-02-28 20:46:35,071][INFO ][gateway                  ] [Destiny] recovered [0] indices into cluster_state
+[2015-02-28 20:46:41,823][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-02-28 20:46:42,357][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [node_stats] (dynamic)
+[2015-02-28 20:46:42,502][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [cluster_state] (dynamic)
+[2015-02-28 20:46:42,525][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [shard_event] (dynamic)
+[2015-02-28 20:46:42,535][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [cluster_event] (dynamic)
+[2015-02-28 20:46:42,547][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [routing_event] (dynamic)
+[2015-02-28 20:46:42,552][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [node_event] (dynamic)
+[2015-02-28 20:46:42,560][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [index_event] (dynamic)
+[2015-02-28 20:46:42,620][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [index_stats] (dynamic)
+[2015-02-28 20:46:42,643][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [indices_stats] (dynamic)
+[2015-02-28 20:46:42,663][INFO ][cluster.metadata         ] [Destiny] [.marvel-2015.03.01] update_mapping [cluster_stats] (dynamic)
+[2015-02-28 20:59:36,371][INFO ][node                     ] [Destiny] stopping ...
+[2015-02-28 20:59:36,470][INFO ][node                     ] [Destiny] stopped
+[2015-02-28 20:59:36,470][INFO ][node                     ] [Destiny] closing ...
+[2015-02-28 20:59:36,482][INFO ][node                     ] [Destiny] closed
+[2015-02-28 20:59:43,686][INFO ][node                     ] [Thunderbolt] version[1.4.4], pid[45069], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-02-28 20:59:43,687][INFO ][node                     ] [Thunderbolt] initializing ...
+[2015-02-28 20:59:43,706][INFO ][plugins                  ] [Thunderbolt] loaded [marvel], sites [marvel]
+[2015-02-28 20:59:46,244][INFO ][node                     ] [Thunderbolt] initialized
+[2015-02-28 20:59:46,244][INFO ][node                     ] [Thunderbolt] starting ...
+[2015-02-28 20:59:46,306][INFO ][transport                ] [Thunderbolt] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-02-28 20:59:46,320][INFO ][discovery                ] [Thunderbolt] wat/7tdWpIXsRKuCxhcHvnKevg
+[2015-02-28 20:59:50,085][INFO ][cluster.service          ] [Thunderbolt] new_master [Thunderbolt][7tdWpIXsRKuCxhcHvnKevg][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-28 20:59:50,180][INFO ][http                     ] [Thunderbolt] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-02-28 20:59:50,180][INFO ][node                     ] [Thunderbolt] started
+[2015-02-28 20:59:50,870][INFO ][gateway                  ] [Thunderbolt] recovered [1] indices into cluster_state
+[2015-02-28 21:19:09,216][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] creating index, cause [auto(index api)], shards [5]/[1], mappings [employee]
+[2015-02-28 21:19:09,431][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] update_mapping [employee] (dynamic)
+[2015-02-28 21:19:10,874][INFO ][cluster.metadata         ] [Thunderbolt] [.marvel-2015.03.01] update_mapping [index_event] (dynamic)
+[2015-02-28 22:14:02,690][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] deleting index
+[2015-02-28 22:14:17,198][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] creating index, cause [auto(index api)], shards [5]/[1], mappings [employee]
+[2015-02-28 22:14:17,389][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] update_mapping [employee] (dynamic)
+[2015-02-28 22:26:34,733][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] deleting index
+[2015-02-28 22:26:36,386][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] creating index, cause [auto(index api)], shards [5]/[1], mappings [employee]
+[2015-02-28 22:26:36,508][INFO ][cluster.metadata         ] [Thunderbolt] [megacorp] update_mapping [employee] (dynamic)

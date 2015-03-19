@@ -1,0 +1,1456 @@
+[2015-03-11 12:00:05,225][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [TRoy888.local: TRoy888.local: nodename nor servname provided, or not known]
+[2015-03-11 12:00:05,427][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error sending data to [http://[0:0:0:0:0:0:0:0]:9200/.marvel-2015.03.11/_bulk]: SocketTimeoutException[Read timed out]
+[2015-03-11 14:59:08,231][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [TRoy888.local: TRoy888.local: nodename nor servname provided, or not known]
+[2015-03-11 14:59:12,422][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error sending data to [http://[0:0:0:0:0:0:0:0]:9200/.marvel-2015.03.11/_bulk]: SocketTimeoutException[Read timed out]
+[2015-03-11 17:18:01,742][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-11 17:18:01,856][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [node_stats] (dynamic)
+[2015-03-11 17:18:01,871][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [cluster_state] (dynamic)
+[2015-03-11 17:18:01,881][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [index_event] (dynamic)
+[2015-03-11 17:18:01,884][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [shard_event] (dynamic)
+[2015-03-11 17:18:01,887][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [routing_event] (dynamic)
+[2015-03-11 17:18:01,890][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [cluster_event] (dynamic)
+[2015-03-11 17:18:01,907][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [index_stats] (dynamic)
+[2015-03-11 17:18:01,921][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [indices_stats] (dynamic)
+[2015-03-11 17:18:02,206][INFO ][cluster.metadata         ] [Sharon Friedlander] [.marvel-2015.03.12] update_mapping [cluster_stats] (dynamic)
+[2015-03-11 17:29:23,550][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:29:33,132][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:29:33,134][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:29:39,144][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:29:39,144][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:29:45,156][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:29:45,159][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:01,175][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:01,177][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:07,185][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:07,185][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:13,199][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:13,199][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:29,220][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:29,222][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:35,231][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:35,231][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:41,260][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:41,260][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:30:57,273][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:30:57,275][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:03,283][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:03,283][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:09,298][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:09,298][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:25,310][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:25,311][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:31,318][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:31,318][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:37,330][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:37,330][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:53,344][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:53,344][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:31:59,352][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:31:59,352][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:32:05,364][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:32:05,364][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:32:21,377][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:32:21,377][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:32:27,385][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:32:27,385][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:32:33,401][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:32:33,401][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:32:49,415][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:32:49,416][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:32:55,424][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:32:55,425][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:01,437][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:01,438][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:17,452][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:17,454][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:23,460][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:23,461][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:29,475][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:29,475][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:45,488][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:45,490][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:51,497][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:51,497][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:33:57,510][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:33:57,511][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:34:13,523][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:34:13,524][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:34:19,530][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:34:19,530][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:34:25,545][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:34:25,545][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:34:41,560][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:34:41,562][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:34:47,569][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:34:47,569][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:34:53,582][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:34:53,582][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:35:09,597][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:35:09,599][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:35:15,606][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:35:15,606][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:35:21,620][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:35:21,620][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:35:37,636][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:35:37,638][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:35:43,645][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:35:43,645][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:35:49,657][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:35:49,657][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:36:05,674][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:36:05,676][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:36:11,683][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:36:11,684][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:36:17,700][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:36:17,700][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:36:33,714][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:36:33,716][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:36:39,724][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:36:39,724][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:36:45,736][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:36:45,737][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:01,750][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:01,752][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:07,760][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:07,760][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:13,776][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:13,777][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:29,789][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:29,791][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:35,799][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:35,799][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:41,812][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:41,814][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:37:57,829][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:37:57,830][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:03,836][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:03,836][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:09,850][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:09,850][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:25,863][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:25,863][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:31,869][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:31,871][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:37,885][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:37,885][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:53,899][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:53,899][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:38:59,906][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:38:59,908][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:39:05,921][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:39:05,921][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:39:21,937][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:39:21,937][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:39:27,945][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:39:27,945][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:39:33,960][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:39:33,961][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:39:49,976][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:39:49,977][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:39:55,985][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:39:55,985][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:01,997][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:01,998][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:18,014][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:18,014][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:24,023][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:24,023][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:30,037][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:30,037][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:46,051][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:46,052][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:52,059][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:52,059][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:40:58,074][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:40:58,074][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:41:14,088][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:41:14,088][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:41:20,095][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:41:20,097][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:41:26,110][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:41:26,111][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:41:42,126][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:41:42,126][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:41:48,134][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:41:48,134][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:41:54,149][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:41:54,149][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:42:10,164][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:42:10,164][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:42:16,171][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:42:16,171][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:42:22,184][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:42:22,184][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:42:38,228][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:42:38,230][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:42:44,240][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:42:44,240][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:42:50,253][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:42:50,253][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:43:06,268][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:43:06,268][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:43:12,275][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:43:12,275][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:43:18,288][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:43:18,288][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:43:34,302][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:43:34,302][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:43:40,309][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:43:40,309][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:43:46,341][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:43:46,341][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:02,355][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:02,355][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:08,362][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:08,362][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:14,375][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:14,375][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:30,389][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:30,390][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:36,396][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:36,398][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:42,411][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:42,412][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:44:58,425][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:44:58,427][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:45:04,433][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:45:04,434][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:45:10,449][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:45:10,449][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:45:26,462][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:45:26,464][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:45:32,472][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:45:32,472][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:45:38,486][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:45:38,486][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:45:54,503][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:45:54,503][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:00,511][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:00,513][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:06,526][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:06,528][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:22,543][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:22,544][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:28,551][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:28,551][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:34,565][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:34,565][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:50,579][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:50,579][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:46:56,586][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:46:56,587][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:02,602][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:02,602][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:18,616][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:18,617][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:24,623][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:24,623][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:30,637][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:30,637][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:46,652][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:46,652][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:52,660][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:52,660][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:47:58,672][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:47:58,672][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:48:14,692][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:48:14,692][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:48:20,699][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:48:20,700][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:48:26,713][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:48:26,713][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:48:42,729][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:48:42,731][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:48:48,741][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:48:48,741][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:48:54,757][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:48:54,759][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:49:10,772][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:49:10,773][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:49:16,780][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:49:16,781][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:49:22,815][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:49:22,816][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:49:38,833][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:49:38,833][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:49:44,843][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:49:44,843][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:49:50,859][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:49:50,859][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:50:06,876][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:50:06,877][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:50:12,885][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:50:12,885][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:50:18,900][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:50:18,902][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:50:34,919][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:50:34,920][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:50:40,929][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:50:40,929][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:50:46,944][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:50:46,944][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:02,962][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:02,964][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:08,973][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:08,973][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:14,988][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:14,988][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:31,004][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:31,005][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:37,012][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:37,012][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:43,028][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:43,028][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:51:59,045][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:51:59,047][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:52:05,056][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:52:05,058][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:52:11,072][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:52:11,072][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:52:27,089][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:52:27,089][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:52:33,098][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:52:33,099][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:52:39,116][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:52:39,116][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:52:55,132][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:52:55,132][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:01,138][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:01,139][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:07,153][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:07,153][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:23,168][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:23,170][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:29,182][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:29,183][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:35,204][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:35,204][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:51,219][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:51,221][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:53:57,230][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:53:57,231][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:03,245][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:03,245][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:19,263][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:19,263][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:25,271][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:25,273][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:31,288][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:31,288][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:47,305][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:47,307][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:53,315][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:53,315][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:54:59,330][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:54:59,330][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:55:15,346][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:55:15,348][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:55:21,356][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:55:21,357][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:55:27,371][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:55:27,371][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:55:43,388][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:55:43,390][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:55:49,398][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:55:49,398][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:55:55,414][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:55:55,415][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:56:11,431][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:56:11,431][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:56:17,440][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:56:17,442][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:56:23,456][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:56:23,456][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:56:39,471][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:56:39,471][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:56:45,480][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:56:45,480][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:56:51,520][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:56:51,520][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:57:07,534][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:57:07,536][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:57:13,546][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:57:13,547][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:57:19,560][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:57:19,560][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:57:35,576][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:57:35,577][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:57:41,585][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:57:41,585][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:57:47,600][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:57:47,600][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:03,616][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:03,616][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:09,625][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:09,625][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:15,640][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:15,642][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:31,659][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:31,659][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:37,668][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:37,668][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:43,683][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:43,685][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:58:59,701][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:58:59,702][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:59:05,711][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:59:05,711][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:59:11,726][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:59:11,726][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:59:27,743][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:59:27,743][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:59:33,750][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:59:33,750][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:59:39,765][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:59:39,767][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 17:59:55,785][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 17:59:55,787][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:01,797][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:01,797][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:07,811][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:07,813][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:23,832][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:23,833][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:29,842][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:29,845][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:35,859][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:35,859][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:51,876][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:51,878][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:00:57,887][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:00:57,887][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:03,901][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:03,901][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:19,918][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:19,918][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:25,927][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:25,927][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:31,941][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:31,942][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:47,958][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:47,959][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:53,968][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:53,968][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:01:59,983][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:01:59,984][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:02:16,000][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:02:16,000][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:02:22,009][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:02:22,009][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:02:28,028][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:02:28,028][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:02:44,044][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:02:44,044][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:02:50,053][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:02:50,053][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:02:56,068][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:02:56,068][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:03:12,085][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:03:12,085][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:03:18,093][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:03:18,094][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:03:24,107][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:03:24,107][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:03:40,124][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:03:40,124][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:03:46,134][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:03:46,134][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:03:52,149][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:03:52,149][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:04:08,171][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:04:08,171][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:04:14,180][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:04:14,180][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:04:20,194][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [connect timed out]
+[2015-03-11 18:04:20,194][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:38:54,284][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [Can't assign requested address]
+[2015-03-11 18:38:54,287][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:38:54,684][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [Network is unreachable]
+[2015-03-11 18:38:54,685][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:38:54,697][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [Network is unreachable]
+[2015-03-11 18:38:54,718][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 18:57:46,011][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 18:57:53,988][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 18:57:53,988][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 19:39:11,000][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 19:39:11,003][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 19:39:11,004][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 19:40:22,910][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x605092c4, /192.168.1.108:64091 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xdcc390da, /192.168.1.108:64085 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xd17caa09, /192.168.1.108:64085 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x3e7bb766, /192.168.1.108:64092 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x1e888556, /192.168.1.108:64086 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x42bc416f, /192.168.1.108:64090 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x36488aba, /192.168.1.108:64086 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x234e61ee, /192.168.1.108:64087 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xaaf5b82e, /192.168.1.108:64087 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,911][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xf7289bea, /192.168.1.108:64080 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,910][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xd737454a, /192.168.1.108:64080 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,910][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x59b55e12, /192.168.1.108:64081 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,910][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xf0b4b180, /192.168.1.108:64089 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,910][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xb7ba825a, /192.168.1.108:64082 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,910][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x62dd3335, /192.168.1.108:64092 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,927][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x0d91f013, /192.168.1.108:64081 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,926][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xc46af6b6, /192.168.1.108:64088 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,920][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x20444473, /192.168.1.108:64082 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,913][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x5f10606d, /192.168.1.108:64083 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,912][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xbe2cc5dc, /192.168.1.108:64083 => 192.168.1.108/192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:40:22,928][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x58f45ed2, /192.168.1.108:64084 => /192.168.1.108:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 19:42:58,141][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 19:47:09,028][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 19:47:12,930][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 19:47:12,931][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 19:47:18,001][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [TRoy888.local: TRoy888.local: nodename nor servname provided, or not known]
+[2015-03-11 19:47:18,001][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 19:49:00,089][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 19:53:00,337][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 19:57:00,539][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:01:00,738][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:05:00,941][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:09:01,139][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:13:01,339][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:17:01,540][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:21:01,739][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:25:01,939][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:29:02,139][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:33:02,339][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:37:02,540][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:42:36,211][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 20:42:40,072][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 20:42:40,072][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 20:45:06,440][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: 192.168.1.108/192.168.1.108:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-03-11 20:49:07,210][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xcd3d200d]], closing connection
+java.net.SocketException: Network is down
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:788)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 20:49:10,975][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 20:49:10,976][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 20:49:10,976][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 21:08:22,878][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 21:08:22,879][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 21:08:22,880][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 22:04:38,927][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 22:04:38,929][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] error connecting to [[0:0:0:0:0:0:0:0]:9200] [guest-wireless-207-151-035-079.usc.edu: guest-wireless-207-151-035-079.usc.edu: nodename nor servname provided, or not known]
+[2015-03-11 22:04:38,929][ERROR][marvel.agent.exporter    ] [Sharon Friedlander] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-03-11 22:04:42,017][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xf806e01a]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:788)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,018][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xb4353d0a]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:788)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,504][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x87f8e9d2]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:791)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,504][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xb1b0ffba]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:791)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,505][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xc830c23a]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:791)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,506][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x465cee09]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:794)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,507][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x00d700d9]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:794)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,507][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x4d156ddd]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:794)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,508][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x150af578]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:794)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,509][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xcc4a78d7]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:794)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,509][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xff59a41f]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:794)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,510][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0x7bc47839]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:797)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,510][WARN ][transport.netty          ] [Sharon Friedlander] exception caught on transport layer [[id: 0xef3ef389]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:800)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-11 22:04:42,511][WARN ][cluster.service          ] [Sharon Friedlander] failed to reconnect to node [Sharon Friedlander][m_rnfOXeQTqrhwGqAfa-Ng][TRoy888.local][inet[192.168.1.108/192.168.1.108:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Sharon Friedlander][inet[192.168.1.108/192.168.1.108:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:788)
+	... 7 more
+[2015-03-11 22:05:47,797][WARN ][http.netty               ] [Sharon Friedlander] Caught exception while handling client http traffic, closing connection [id: 0xa0e03326, /192.168.1.108:54490 => /192.168.1.108:9200]
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)

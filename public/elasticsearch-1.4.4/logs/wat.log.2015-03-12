@@ -1,0 +1,1358 @@
+[2015-03-12 15:11:06,639][INFO ][node                     ] [Sharon Friedlander] stopping ...
+[2015-03-12 15:11:06,718][INFO ][node                     ] [Sharon Friedlander] stopped
+[2015-03-12 15:11:06,718][INFO ][node                     ] [Sharon Friedlander] closing ...
+[2015-03-12 15:11:06,726][INFO ][node                     ] [Sharon Friedlander] closed
+[2015-03-12 15:11:08,658][INFO ][node                     ] [Humbug] version[1.4.4], pid[69537], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-12 15:11:08,658][INFO ][node                     ] [Humbug] initializing ...
+[2015-03-12 15:11:08,672][INFO ][plugins                  ] [Humbug] loaded [marvel], sites [marvel]
+[2015-03-12 15:11:11,704][INFO ][node                     ] [Humbug] initialized
+[2015-03-12 15:11:11,705][INFO ][node                     ] [Humbug] starting ...
+[2015-03-12 15:11:11,784][INFO ][transport                ] [Humbug] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-03-12 15:11:11,802][INFO ][discovery                ] [Humbug] wat/H5zdhQKgTXuIW8TmDs0Zeg
+[2015-03-12 15:11:15,575][INFO ][cluster.service          ] [Humbug] new_master [Humbug][H5zdhQKgTXuIW8TmDs0Zeg][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-12 15:11:15,652][INFO ][http                     ] [Humbug] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-03-12 15:11:15,652][INFO ][node                     ] [Humbug] started
+[2015-03-12 15:11:16,493][INFO ][gateway                  ] [Humbug] recovered [8] indices into cluster_state
+[2015-03-12 15:11:22,172][INFO ][cluster.metadata         ] [Humbug] [.marvel-2015.03.12] update_mapping [index_event] (dynamic)
+[2015-03-12 15:11:22,177][INFO ][cluster.metadata         ] [Humbug] [.marvel-2015.03.12] update_mapping [node_event] (dynamic)
+[2015-03-12 15:11:22,181][INFO ][cluster.metadata         ] [Humbug] [.marvel-2015.03.12] update_mapping [cluster_event] (dynamic)
+[2015-03-12 15:14:35,436][INFO ][node                     ] [Humbug] stopping ...
+[2015-03-12 15:14:35,496][INFO ][node                     ] [Humbug] stopped
+[2015-03-12 15:14:35,496][INFO ][node                     ] [Humbug] closing ...
+[2015-03-12 15:14:35,501][INFO ][node                     ] [Humbug] closed
+[2015-03-12 15:15:23,564][INFO ][node                     ] [Storm] version[1.4.4], pid[69672], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-12 15:15:23,564][INFO ][node                     ] [Storm] initializing ...
+[2015-03-12 15:15:23,577][INFO ][plugins                  ] [Storm] loaded [marvel], sites [marvel]
+[2015-03-12 15:15:26,143][INFO ][node                     ] [Storm] initialized
+[2015-03-12 15:15:26,143][INFO ][node                     ] [Storm] starting ...
+[2015-03-12 15:15:26,197][INFO ][transport                ] [Storm] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-03-12 15:15:26,214][INFO ][discovery                ] [Storm] wat/Fa4PupZoRs-9zYWWviY0oA
+[2015-03-12 15:15:29,983][INFO ][cluster.service          ] [Storm] new_master [Storm][Fa4PupZoRs-9zYWWviY0oA][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-12 15:15:30,060][INFO ][http                     ] [Storm] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-03-12 15:15:30,060][INFO ][node                     ] [Storm] started
+[2015-03-12 15:15:30,842][INFO ][gateway                  ] [Storm] recovered [8] indices into cluster_state
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.01][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.01][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.01][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.11][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.11][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.11][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [megacorp][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [.marvel-kibana][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [wat][1], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][1]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [wat][2], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][2]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.12][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.12][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.12][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [megacorp][1], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][1]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.07][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.07][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.07][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.10][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.10][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.10][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [wat][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,636][DEBUG][action.search.type       ] [Storm] [megacorp][2], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][2]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,643][DEBUG][action.search.type       ] [Storm] [wat][4], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4]
+org.elasticsearch.search.SearchParseException: [wat][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][4]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,642][DEBUG][action.search.type       ] [Storm] [megacorp][4], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][4]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,641][DEBUG][action.search.type       ] [Storm] [wat][3], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][3]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,640][DEBUG][action.search.type       ] [Storm] [megacorp][3], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3e6f28c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "filter": {
+            "type": {"value":"threads"}
+          }
+          , "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][3]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:28,648][DEBUG][action.search.type       ] [Storm] All shards failed for phase: [query]
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.11][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.11][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.11][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.12][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.12][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.12][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [megacorp][1], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][1]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [wat][1], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][1]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [megacorp][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [wat][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.07][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.07][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.07][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [.marvel-kibana][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.10][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.10][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.10][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.01][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.01][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.01][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [wat][2], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][2]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,520][DEBUG][action.search.type       ] [Storm] [megacorp][2], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][2]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,522][DEBUG][action.search.type       ] [Storm] [wat][4], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0]
+org.elasticsearch.search.SearchParseException: [wat][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][4]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,521][DEBUG][action.search.type       ] [Storm] [megacorp][4], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][4]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,521][DEBUG][action.search.type       ] [Storm] [wat][3], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][3]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,521][DEBUG][action.search.type       ] [Storm] [megacorp][3], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@27e466a0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][3]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:37,527][DEBUG][action.search.type       ] [Storm] All shards failed for phase: [query]
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.10][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.10][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.10][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.01][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.01][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.01][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,314][DEBUG][action.search.type       ] [Storm] [wat][3], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][3]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [megacorp][2], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][2]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [wat][1], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][1]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [megacorp][1], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][1]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [wat][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [megacorp][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [.marvel-kibana][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.12][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.12][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.12][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.11][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.11][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.11][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [wat][2], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [wat][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][2]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,312][DEBUG][action.search.type       ] [Storm] [.marvel-2015.03.07][0], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.03.07][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [.marvel-2015.03.07][0]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,315][DEBUG][action.search.type       ] [Storm] [wat][4], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1]
+org.elasticsearch.search.SearchParseException: [wat][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [wat][4]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,324][DEBUG][action.search.type       ] [Storm] All shards failed for phase: [query]
+[2015-03-12 16:07:51,314][DEBUG][action.search.type       ] [Storm] [megacorp][4], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][4]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:07:51,313][DEBUG][action.search.type       ] [Storm] [megacorp][3], node[Fa4PupZoRs-9zYWWviY0oA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@485559b1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [megacorp][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{ "index":"wat"
+  ,"body":{ 
+    "query": {
+      "filtered": {
+          "query": {
+            "query_string":{"query":"sleep"}
+        }
+      }
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.search.SearchParseException: [megacorp][3]: from[-1],size[-1]: Parse Failure [No parser for element [index]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:669)
+	... 9 more
+[2015-03-12 16:09:39,262][DEBUG][action.admin.indices.create] [Storm] [_search] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [_search] Invalid index name [_search], must not start with '_'
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:179)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:559)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:87)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:243)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:352)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:184)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:154)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-12 17:00:06,897][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-12 17:00:07,038][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [node_stats] (dynamic)
+[2015-03-12 17:00:07,080][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [cluster_event] (dynamic)
+[2015-03-12 17:00:07,092][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [cluster_state] (dynamic)
+[2015-03-12 17:00:07,098][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [index_event] (dynamic)
+[2015-03-12 17:00:07,105][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [routing_event] (dynamic)
+[2015-03-12 17:00:07,110][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [shard_event] (dynamic)
+[2015-03-12 17:00:07,134][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [index_stats] (dynamic)
+[2015-03-12 17:00:07,150][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [indices_stats] (dynamic)
+[2015-03-12 17:00:07,160][INFO ][cluster.metadata         ] [Storm] [.marvel-2015.03.13] update_mapping [cluster_stats] (dynamic)
+[2015-03-12 17:33:11,451][INFO ][node                     ] [Storm] stopping ...
+[2015-03-12 17:33:11,528][INFO ][node                     ] [Storm] stopped
+[2015-03-12 17:33:11,528][INFO ][node                     ] [Storm] closing ...
+[2015-03-12 17:33:11,539][INFO ][node                     ] [Storm] closed

@@ -1,0 +1,42 @@
+[2015-03-14 02:07:55,512][INFO ][node                     ] [Karl Lykos] version[1.4.4], pid[95651], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-14 02:07:55,519][INFO ][node                     ] [Karl Lykos] initializing ...
+[2015-03-14 02:07:55,557][INFO ][plugins                  ] [Karl Lykos] loaded [marvel], sites [marvel]
+[2015-03-14 02:07:59,780][INFO ][node                     ] [Karl Lykos] initialized
+[2015-03-14 02:07:59,780][INFO ][node                     ] [Karl Lykos] starting ...
+[2015-03-14 02:07:59,890][INFO ][transport                ] [Karl Lykos] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.108:9300]}
+[2015-03-14 02:07:59,916][INFO ][discovery                ] [Karl Lykos] wat/Wr2ONrJdR1iRdk1xXVoCNQ
+[2015-03-14 02:08:03,684][INFO ][cluster.service          ] [Karl Lykos] new_master [Karl Lykos][Wr2ONrJdR1iRdk1xXVoCNQ][TRoy888.local][inet[/192.168.1.108:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-14 02:08:03,740][INFO ][http                     ] [Karl Lykos] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.108:9200]}
+[2015-03-14 02:08:03,740][INFO ][node                     ] [Karl Lykos] started
+[2015-03-14 02:08:04,883][INFO ][gateway                  ] [Karl Lykos] recovered [9] indices into cluster_state
+[2015-03-14 02:08:10,001][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-14 02:08:10,182][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [node_stats] (dynamic)
+[2015-03-14 02:08:10,635][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [index_event] (dynamic)
+[2015-03-14 02:08:10,638][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [shard_event] (dynamic)
+[2015-03-14 02:08:10,641][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [node_event] (dynamic)
+[2015-03-14 02:08:10,687][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [cluster_event] (dynamic)
+[2015-03-14 02:08:10,692][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [cluster_state] (dynamic)
+[2015-03-14 02:08:10,695][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [routing_event] (dynamic)
+[2015-03-14 02:08:10,893][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [index_stats] (dynamic)
+[2015-03-14 02:08:10,902][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [indices_stats] (dynamic)
+[2015-03-14 02:08:10,948][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.14] update_mapping [cluster_stats] (dynamic)
+[2015-03-14 02:18:54,831][INFO ][cluster.metadata         ] [Karl Lykos] [my_index] creating index, cause [api], shards [1]/[1], mappings []
+[2015-03-14 02:18:58,454][INFO ][cluster.metadata         ] [Karl Lykos] [my_index] update_mapping [my_type] (dynamic)
+[2015-03-14 04:02:00,545][INFO ][cluster.metadata         ] [Karl Lykos] [my_index] deleting index
+[2015-03-14 04:02:03,138][INFO ][cluster.metadata         ] [Karl Lykos] [my_index] creating index, cause [api], shards [1]/[1], mappings []
+[2015-03-14 04:02:06,814][INFO ][cluster.metadata         ] [Karl Lykos] [my_index] update_mapping [my_type] (dynamic)
+[2015-03-14 04:48:30,378][ERROR][marvel.agent.exporter    ] [Karl Lykos] error connecting to [[0:0:0:0:0:0:0:0]:9200] [Network is down]
+[2015-03-14 19:28:36,937][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] creating index, cause [auto(bulk api)], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-03-14 19:28:37,061][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [node_stats] (dynamic)
+[2015-03-14 19:28:37,092][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [index_event] (dynamic)
+[2015-03-14 19:28:37,095][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [cluster_state] (dynamic)
+[2015-03-14 19:28:37,098][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [routing_event] (dynamic)
+[2015-03-14 19:28:37,105][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [shard_event] (dynamic)
+[2015-03-14 19:28:37,110][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [cluster_event] (dynamic)
+[2015-03-14 19:28:37,140][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [indices_stats] (dynamic)
+[2015-03-14 19:28:37,154][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [index_stats] (dynamic)
+[2015-03-14 19:28:39,163][INFO ][cluster.metadata         ] [Karl Lykos] [.marvel-2015.03.15] update_mapping [cluster_stats] (dynamic)
+[2015-03-14 20:26:12,342][INFO ][node                     ] [Karl Lykos] stopping ...
+[2015-03-14 20:26:12,873][INFO ][node                     ] [Karl Lykos] stopped
+[2015-03-14 20:26:12,874][INFO ][node                     ] [Karl Lykos] closing ...
+[2015-03-14 20:26:12,906][INFO ][node                     ] [Karl Lykos] closed

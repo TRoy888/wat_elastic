@@ -24,7 +24,7 @@
 # <http://elasticsearch.org/guide/en/elasticsearch/reference/current/setup-configuration.html>
 
 http.cors.enabled:      true
-http.cors.allow-origin: /http:\/\/www.elasticsearch.(org|com)/
+http.cors.allow-origin: /http:\/\/www.elastic.(org|com)/
 
 
 ################################### Cluster ###################################
