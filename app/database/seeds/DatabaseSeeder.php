@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('PostSeeder');
 		$this->call('ThreadCategoryThreadSeeder');
 		$this->call('ThreadCategoryUserSeeder');
+		$this->call('ElasticSearchSeeder');
 	}
 
 }
